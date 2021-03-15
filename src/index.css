@@ -1,0 +1,42 @@
+nav{
+  display: flex;
+  background-color: rgb(2, 47, 77);
+  justify-content: space-between;
+}
+nav .logo{
+  color: yellowgreen;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+}
+nav ul li{
+  margin: 10px;
+  color: rgb(115, 179, 12);
+}
+nav ul li:hover{
+  cursor: pointer;
+}
+.sena{
+ display: grid;
+ justify-content: center;
+ align-items: center;
+  background-color: gray;
+  height: 40vh;
+}
+header{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+header .hero{
+  color: rgb(176, 190, 190);
+  font-size: 25px;
+}
+ footer{
+   display: grid;
+   justify-content: center;
+   align-items: center;
+ }
