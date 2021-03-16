@@ -1,5 +1,6 @@
 
 import ButtonContainer from "./ButtonContainer"
+import Products from "./Products";
 function Hero() {
     const styles ={
         background: "blue",
@@ -11,10 +12,10 @@ function Hero() {
 return(
     <header style={{background: "url(./Galleries/rain2.svg.jpg)", backgroundAttachment: "scroll",  backgroundposition: "center center", backgroundSize: "cover", backgroundRepeat: "no-repeat"}}>
        <div className="hero">
-           <h3>My Company Web site <br></br>built with React Application</h3>
-           <h1>Deals in all kinds of Africans Wears</h1>
+           <h3>My Company Web site built with React Application</h3>
+           <h1>providers of all kinds of Natural confort</h1>
            
-        <ButtonContainer style={styles} tittle="BUY NOW" />
+        <ButtonContainer style={styles} tittle="BOOK NOW" />
         </div> 
         <div>
        

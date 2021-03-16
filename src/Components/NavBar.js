@@ -2,12 +2,12 @@ function NavBar (){
     return(
         <nav>
             <div className="logo">
-                <h1>SKYWEARS</h1>
+                <h1>SKYPALACE</h1>
             </div>
             <ul className="nav-items">
              <li>Home</li>
-                <li>Products</li>
-                <li>Contacts</li>
+                <li>Services</li>
+                <li>About</li>
             </ul>
         </nav>
     )

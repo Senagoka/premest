@@ -35,8 +35,42 @@ header .hero{
   color: rgb(176, 190, 190);
   font-size: 25px;
 }
+header .hero h3{
+font-size: larger;
+font-style: italic;
+color: rgb(29, 28, 28);
+}
  footer{
    display: grid;
    justify-content: center;
    align-items: center;
  }
+img{
+  height: 70vh;
+  width: 85vh;
+}
+.gat{
+  
+  margin:0px 0px;
+  border: rgb(94, 95, 94) solid 3px;
+}
+.fog{
+  margin: 20px;
+  border: gray solid 3px;
+}
+.sat{
+  margin: 20px;
+  border: rgb(95, 100, 100) solid 3px;
+}
+.dis{
+  margin: 20px;
+  border:rgb(78, 78, 78) solid 3px;
+}
+section{
+display: flex;
+flex-direction: column;
+  align-items: center;
+  background-color: teal;
+
+  
+}

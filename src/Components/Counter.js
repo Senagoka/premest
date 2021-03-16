@@ -10,8 +10,7 @@ function Counter() {
 
     const [count, setcount]=useState(5)
     return (
-    
-<div className="sena">
+    <div className="sena">
     <button onClick={() => setcount(count + 1)}>Add</button>
     <div>
         Quantity:{count}
